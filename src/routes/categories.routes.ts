@@ -3,7 +3,6 @@ import { createCategoryController } from '../modules/cars/useCases/createCategor
 import { listCategoryController } from '../modules/cars/useCases/listCategory';
 
 
-
 const categoriesRoutes = Router();
 
 categoriesRoutes.post("/", (req, res) => {
